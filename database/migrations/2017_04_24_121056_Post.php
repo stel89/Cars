@@ -26,6 +26,7 @@ class Post extends Migration
             $table->string('image');
             $table->text('text');
             $table->integer('author_id');
+            $table->integer('price');
             $table->timestamps();
         });
     }
