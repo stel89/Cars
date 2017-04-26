@@ -21,7 +21,7 @@ class Post extends Migration
             $table->string('mark');
             $table->string('model');
             $table->string('size');
-            $table->string('trial');
+            $table->float('trial');
             $table->integer('owner');
             $table->string('image');
             $table->text('text');
